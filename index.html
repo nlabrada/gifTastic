@@ -5,22 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Nanette's Fav Movies and I Guess Yours Too</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
-    <script type= "text/javascript" src="assets/javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
 </head>
 <body>
-        <button data-movie="fargo"><img src="">FARGO</button>
-        <button data-movie="no-country-for-old-men"><img src="">NO COUNTRY FOR OLD MEN</button>
-        <button data-movie="death-proof"><img src="">DEATH PROOF</button>
-        <button data-movie="love"><img src="">LOVE</button>
-        <button data-movie="a-most-violent-year"><img src="">A MOST VIOLENT YEAR</button>
-        <button data-movie="final-destination"><img src="">FINAL DESTINATION</button>
-
-        <div id="gifs-appear-here">
-        </div>
-            <!-- Rendered Buttons will get Dumped Here  -->
-    <div id="buttons-view"></div>
-
     <form id="movie-form">
       <label for="movie-input">Add Your Fav Movie!</label>
       <input type="text" id="movie-input"><br>
@@ -29,7 +19,13 @@
       <input id="add-movie" type="submit" value="Add Your Fav Movie!">
     </form>
 
+    <div id="movie-buttons"></div>
+    <!-- Gifs go here -->
+    <div id="gifs-appear-here"></div>
+    <!-- New buttons go here  -->
 
 
+
+    <script type="text/javascript" src="assets/javascript.js"></script>
 </body>
 </html>
