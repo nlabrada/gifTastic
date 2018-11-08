@@ -1,8 +1,32 @@
-body {
-    margin: 10px;
+body{
+    background-color: black;
+    color: #c4e3e4;
 }
+label{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 200%;
+}
+/* .movie-image{
+    max-width: 400px;
+    max-height: auto;
+} */
+.card{
+    margin: 1%;
+    border:none;
+    background-color: #9dbcc5;
+    color: #c4e3e4;
+}
+img{
+    max-width: 94%;
+    max-height: 94%;
+}
+#cool-gifs{
+    padding-bottom: 5%;
+}
+.btn{
+    background-color: #c4e3e4;
+}
+.btn:hover{
+    background-color: #9dbcc5;
 
-form {
-    margin-left: 75%;
-  }
-  
+}
